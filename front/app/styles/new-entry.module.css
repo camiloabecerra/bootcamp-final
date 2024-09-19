@@ -1,0 +1,89 @@
+.interact {
+    color: #7a7b7c;
+    border: 2px solid #7a7b7c;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 40%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        background-color 0.2s ease-out,
+        color 0.2s ease-out;
+}
+
+.interact:hover {
+    color: #ffffff;
+    background-color: #7a7b7c;
+}
+
+#plus {
+    font-size: 50px;
+    margin: 7px;
+}
+
+.form {
+    margin-top: 18px;
+    margin-left: 40%;
+    width: 20%;
+    border: 2px solid #3a3b3c;
+    border-radius: 10px;
+    /* background-color: #7a7b7c; */
+    color: #ffffff;
+}
+
+.form p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.input {
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    margin-right: 0;
+    width: 80%;
+    border: 2px solid #3a3b3c;
+    border-radius: 4px;
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.input::placeholder {
+    color: #b0b3b8;
+    text-align: center;
+}
+
+.input:focus {
+    outline: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #3a3b3c;
+    border: 2px solid #3a3b3c;
+    font-size: 15px;
+    border-radius: 4px;
+    transition:
+        background-color 0.2s ease-out,
+        color 0.2s ease-out;
+}
+
+#buttonDiv button {
+    width: 83%;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+#submit:hover {
+    background-color: #181818;
+    color: #7a7b7c;
+}

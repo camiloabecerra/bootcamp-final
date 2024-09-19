@@ -1,0 +1,29 @@
+#top {
+    text-align: center;
+}
+
+#desc {
+    width: 66%;
+    color: #b0b3b8;
+    margin-left: 17%;
+}
+
+#border {
+    border: 2px solid #b0b3b8;
+}
+
+#guide {
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.subcontainer {
+    width: 50%;
+}
