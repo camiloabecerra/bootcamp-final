@@ -1,4 +1,4 @@
 # bootcamp-final
 
 Project:
-![Alt text](./project.png)
+![Alt text](./Project.png)
